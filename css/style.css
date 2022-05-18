@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+html{
+  font-size: 20px;
+  font-family: Helvetica , sans-serif;
+}
+
+@media screen and (min-width: 660px) {
+  body{
+    background-color:#01fffd;
+    color:#4f10da;
+  }
+  #portfolio-links h5 a{
+    color:#840101;
+  }
+}
+
+@media screen and (max-width: 659px) {
+  body{
+    background-color:#4f10da;
+    color:#01fffd;
+  }
+  #portfolio-links h5 a{
+    color:#fffbdd;
+  }
+}
+
+  #portfolio-links h5 a:hover{
+    color:#fe0098;
+  }
+
+/*-----------------------------------------------------------------------------------------------------------*/
+/*style for sidebar on screen*/
+.sidenav {
+  height: 100vh;
+  width: 37vw;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  border-right: 7px solid #fe0098;
+  overflow-x: hidden;
+  background-repeat: no-repeat;
+  background-image: url(../images/abstract-photo2.jpg);
+  background-position: center;
+  background-size: cover;
+  margin-left: -1em;
+  /* padding-top: 20px; */
+}
+
+.main {
+  margin-left: 37vw;
+  /* Same as the width of the sidenav */
+  font-size: 1.3rem;
+  font-family: 'Poppins', sans-serif;
+  /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-width: 659px) {
+  .sidenav {
+    display: none;
+  }
+  .main.container {
+    margin-left: 0;
+  }
+}
+/*style for sidebar on screen*/
+
+/*-------------show and hide git hub link*/
+
+.toggle {
+  display: none;
+}
+
+/*-------------show and hide git hub link*/
+
+/*container*/
+.container {
+  max-width: 100%;
+  margin-left: 37vw;
+  margin-right:1em;
+  height: auto;
+  text-align: center;
+}
+/*container*/
+
+@media screen and (max-width: 659px) {
+  .each-couple-links h5 a {
+    font-size: 1rem;
+  }
+}
+
+h3{
+  color:#fe0098;
+  margin:1.5em;
+}
+/*---------------------------------------------------------------button github*/
+.each-couple-links button{
+  padding:0.5em 1em;
+  margin:1.5em;
+  border-radius: 15px;
+  background: transparent;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.5em;
+  color:#840101;
+  font-size: 1rem;
+  transition:0.5s;
+}
+
+
+@media screen and (min-width: 660px) {
+  .each-couple-links button:hover{
+    background-color:#4f10da;
+    color:white;
+  }
+}
+
+@media screen and (max-width: 659px) {
+  .each-couple-links button:hover{
+    background-color:#fe0098;
+    color:white;
+  }
+}
+
+.personal-contact{
+  display:flex;
+  align-items: center;
+  justify-content:center;
+  border:3px dotted pink;
+}
+
+@media screen and (min-width: 660px) {
+  .personal-contact ion-icon{
+    font-size: 2.5rem;
+  }
+  .personal-contact ion-icon:hover{
+    color:#fe0098 ;
+  }
+}
+
+@media screen and (max-width: 659px) {
+  .personal-contact ion-icon{
+    font-size: 2.5rem;
+  }
+  .personal-contact ion-icon:hover{
+    color:white;
+  }
+}
+/*---------------------------------------------------------------button github*/
+/**/
