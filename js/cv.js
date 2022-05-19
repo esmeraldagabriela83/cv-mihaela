@@ -5,7 +5,7 @@ const btnToToggle = document.querySelectorAll(".btnToToggle");
 console.log("btnToToggle is an array with buttons : " , btnToToggle);
 
 for(i=0 ; i<btnToToggle.length ; i++){
-  btnToToggle[i].style.border="3px solid #840101";
+  btnToToggle[i].style.border="3px solid #625340";
   btnToToggle[i].addEventListener("click", function(event) {
     console.log("this is : ", this);
     event.preventDefault();
