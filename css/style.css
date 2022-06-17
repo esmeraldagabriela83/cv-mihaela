@@ -35,6 +35,15 @@ html {
   #portfolio-links h5 a:hover {
     color: #c98997;
   }
+
+  #real-links-projects h5 a {
+    color: #ecd2dd;
+  }
+
+  #real-links-projects h5 a:hover {
+    color: #c98997;
+  }
+
 }
 
 @media screen and (max-width: 1059px) {
@@ -50,6 +59,16 @@ html {
   #portfolio-links h5 a:hover {
     color: #2e4820;
   }
+
+
+  #real-links-projects h5 a {
+    color: #65743d;
+  }
+
+  #real-links-projects h5 a:hover {
+    color: #2e4820;
+  }
+
 }
 
 /*-----------------------------------------------------------------------------------------------------------*/
