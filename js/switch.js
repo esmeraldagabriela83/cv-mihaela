@@ -8,9 +8,9 @@ switchBtnHover.style.margin="1em";
 switchBtnHover.style.border="3px solid rgb(98 , 83 , 64)";
 //
 function switchTextFunctionHover(){
-  if(switchBtnHover.innerText === "Thanks for your time"){
-    switchBtnHover.innerText="Have a good day";
+  if(switchBtnHover.innerText === "Multumesc pentru timpul acordat"){
+    switchBtnHover.innerText="Zi buna";
   }else{
-    switchBtnHover.innerText="Thanks for your time"
+    switchBtnHover.innerText="Multumesc pentru timpul acordat"
   }
 }
